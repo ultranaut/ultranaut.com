@@ -21,6 +21,6 @@ h1 {
   margin:0;
   letter-spacing:2px;
   color:#033;
-  font:4em/1.25em "Abril Fatface" serif;
+  font:4em/1.25em "Abril Fatface", serif;
   text-shadow:2px 2px 7px #fff
 }
