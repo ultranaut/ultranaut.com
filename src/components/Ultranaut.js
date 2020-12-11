@@ -1,9 +1,12 @@
 import React from 'react';
+import './Ultranaut.css';
 
 const Ultranaut = () => {
   return (
-    <div>
-      <h1>ultranaut</h1>
+    <div className="index">
+      <header>
+        <h1>ultranaut</h1>
+      </header>
     </div>
   );
 };
