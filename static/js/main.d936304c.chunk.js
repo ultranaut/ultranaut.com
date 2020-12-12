@@ -1,2 +1,0 @@
-(this.webpackJsonpultranaut=this.webpackJsonpultranaut||[]).push([[0],{10:function(e,t,n){"use strict";n.r(t);var r=n(0),c=(n(1),n(3)),u=n.n(c),a=(n(9),function(){return Object(r.jsx)("div",{className:"index",children:Object(r.jsx)("header",{children:Object(r.jsx)("h1",{children:"ultranaut"})})})});u.a.render(Object(r.jsx)(a,{}),document.querySelector("#root"))},9:function(e,t,n){}},[[10,1,2]]]);
-//# sourceMappingURL=main.d936304c.chunk.js.map
