@@ -1,10 +1,7 @@
-html {
-  height: 100%;
-}
 body {
   background: url(./bee.jpg) center center;
   background-size: cover;
-  height: 100%;
+  height: 100vh;
   margin: 0;
   position: relative;
 }
