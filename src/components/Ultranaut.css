@@ -1,23 +1,7 @@
 body {
-  background: url(./bee.jpg) center center;
-  background-size: cover;
   height: 100vh;
   margin: 0;
   position: relative;
-}
-
-header {
-  margin: 0;
-  display: inline-block;
-  position: fixed;
-  bottom: 2em;
-  right: 4em;
-}
-
-h1 {
-  margin: 0;
-  letter-spacing: 2px;
-  color: rgb(251, 84, 43);
-  font: 4em/1.25em "Abril Fatface", serif;
-  text-shadow: 2px 2px 7px #000;
+  background: url(./bee.jpg) center center;
+  background-size: cover;
 }
