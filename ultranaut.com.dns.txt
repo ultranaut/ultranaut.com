@@ -1,0 +1,45 @@
+;;
+;; Domain:     ultranaut.com.
+;; Exported:   2021-10-01 23:14:43
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+;; SOA Record
+ultranaut.com	3600	IN	SOA	ultranaut.com root.ultranaut.com 2038479668 7200 3600 86400 3600
+
+;; A Records
+ultranaut.com.	1	IN	A	76.76.21.21
+
+;; CNAME Records
+fig6.ultranaut.com.	1	IN	CNAME	ultranaut.com.
+fm1._domainkey.ultranaut.com.	1	IN	CNAME	fm1.ultranaut.com.dkim.fmhosted.com.
+fm2._domainkey.ultranaut.com.	1	IN	CNAME	fm2.ultranaut.com.dkim.fmhosted.com.
+fm3._domainkey.ultranaut.com.	1	IN	CNAME	fm3.ultranaut.com.dkim.fmhosted.com.
+www.ultranaut.com.	1	IN	CNAME	ultranaut.com.
+
+;; MX Records
+ultranaut.com.	1	IN	MX	20 in2-smtp.messagingengine.com.
+ultranaut.com.	1	IN	MX	10 in1-smtp.messagingengine.com.
+
+;; TXT Records
+ultranaut.com.	1	IN	TXT	"v=spf1 include:spf.messagingengine.com ?all"
+ultranaut.com.	1	IN	TXT	"google-site-verification=oc61_YCjv3OcyBewbbiAkVt2c2egcyhAn4tfWyEhqrM"
