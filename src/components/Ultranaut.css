@@ -1,7 +1,9 @@
 body {
+  margin: 0;
+}
+.home {
   height: 100vh;
   margin: 0;
   position: relative;
-  background: url(./porch-flowers.jpg) center center;
   background-size: cover;
 }
