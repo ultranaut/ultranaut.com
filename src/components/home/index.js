@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './Home.module.css';
-import bee from '../bee.jpg';
-import porchFlowers from '../porch-flowers.jpg';
-import starField from '../Star-field-hubble-deep.jpg';
 
+// import background images
+const importAll = (r) => r.keys().map(r);
+const images = importAll(require.context('./backgrounds', false, /\.(png|jpe?g|svg)$/));
 
-const images =[bee, porchFlowers, starField];
+// const images =[bee, porchFlowers, starField];
 const randomImage = images[Math.floor(Math.random() * images.length)];
 
 const Home = () => {
